@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- Cấu hình mô tả quyền truy cập iOS cho ứng dụng UTH Permission App -->
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>UTH Permission App</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleName</key>
+	<string>permission_app</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(FLUTTER_BUILD_NAME)</string>
+	<key>CFBundleVersion</key>
+	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<!-- Mô tả quyền truy cập vị trí và camera trên iOS -->
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Allow maps to access your location while you use the app?</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Allow maps to access your location while you use the app?</string>
+	<key>NSCameraUsageDescription</key>
+	<string>We need access to your camera to scan QR codes.</string>
+	<key>NSUserNotificationUsageDescription</key>
+	<string>Please enable notifications to receive updates and reminders.</string>
+</dict>
+</plist>

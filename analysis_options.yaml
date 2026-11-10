@@ -1,0 +1,11 @@
+# Cấu hình kiểm tra cú pháp Dart cho dự án UTH
+analyzer:
+  exclude:
+    - build/**
+    - android/**
+    - ios/**
+    - web/**
+    - windows/**
+    - macos/**
+    - linux/**
+include: package:flutter_lints/flutter.yaml
